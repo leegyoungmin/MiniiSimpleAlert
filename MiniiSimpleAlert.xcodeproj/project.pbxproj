@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186EDEFE290E7C020082CFB3 /* MiniiSimpleAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A32D21290E771000FCBE81 /* MiniiSimpleAlert.framework */; };
 		18A32D26290E771000FCBE81 /* MiniiSimpleAlert.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18A32D25290E771000FCBE81 /* MiniiSimpleAlert.docc */; };
 		18A32D27290E771000FCBE81 /* MiniiSimpleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A32D24290E771000FCBE81 /* MiniiSimpleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A32D31290E780400FCBE81 /* MiniiSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A32D2F290E780400FCBE81 /* MiniiSimpleAlert.swift */; };
@@ -24,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186EDEFE290E7C020082CFB3 /* MiniiSimpleAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +37,6 @@
 			children = (
 				18A32D23290E771000FCBE81 /* MiniiSimpleAlert */,
 				18A32D22290E771000FCBE81 /* Products */,
-				18A32D32290E784A00FCBE81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,13 +64,6 @@
 				18A32D2F290E780400FCBE81 /* MiniiSimpleAlert.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		18A32D32290E784A00FCBE81 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -267,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

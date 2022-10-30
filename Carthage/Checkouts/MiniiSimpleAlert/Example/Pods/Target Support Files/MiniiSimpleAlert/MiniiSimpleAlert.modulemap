@@ -1,6 +1,0 @@
-framework module MiniiSimpleAlert {
-  umbrella header "MiniiSimpleAlert-umbrella.h"
-
-  export *
-  module * { export * }
-}
