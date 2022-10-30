@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186EDEFE290E7C020082CFB3 /* MiniiSimpleAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A32D21290E771000FCBE81 /* MiniiSimpleAlert.framework */; };
+		1841F8C3290E7E5F00DACB85 /* MiniiSimpleAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A32D21290E771000FCBE81 /* MiniiSimpleAlert.framework */; };
 		18A32D26290E771000FCBE81 /* MiniiSimpleAlert.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18A32D25290E771000FCBE81 /* MiniiSimpleAlert.docc */; };
 		18A32D27290E771000FCBE81 /* MiniiSimpleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A32D24290E771000FCBE81 /* MiniiSimpleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A32D31290E780400FCBE81 /* MiniiSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A32D2F290E780400FCBE81 /* MiniiSimpleAlert.swift */; };
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186EDEFE290E7C020082CFB3 /* MiniiSimpleAlert.framework in Frameworks */,
+				1841F8C3290E7E5F00DACB85 /* MiniiSimpleAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
