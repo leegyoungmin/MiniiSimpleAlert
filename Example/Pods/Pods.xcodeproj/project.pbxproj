@@ -34,7 +34,7 @@
 		2357EB01C617A8A015615080DBB012D6 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F08572F21242783622E4064A0F5588 /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		289B613DD13E58EA28C0DFAF4358BA68 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F8C3E81DBB1C7E73C7522D79CEA46 /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		28D6E884D7AB6CF2B4BFF328D2537D22 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E600618BFF6AC20A79DF665E00FA7955 /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		2DFBFAAE48EB927525BD0126171878CA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE0921301F1BB2563351932F149E8B /* ReplaceMe.swift */; };
+		2DFBFAAE48EB927525BD0126171878CA /* MiniiSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE0921301F1BB2563351932F149E8B /* MiniiSimpleAlert.swift */; };
 		36C02EC8E1C1C4308D1A4EE313746405 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0533BA6060A6659B1A5405E417AD4BC1 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7BAC3525A87710E8B88E2343A87C2A /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4265253F0C2E2E88973422E9522FD /* ExampleGroup.swift */; };
 		3ABDA920FDD838A534E55347FF35ACCC /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C617157C2C0336E572A451EBC25B2834 /* BeNil.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -166,7 +166,7 @@
 		07E5511B05F2714B4D2AB5FFA1766DFA /* Pods-MiniiSimpleAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiniiSimpleAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		08038AD837D92EC9FA5A729BA9AB09C4 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		086CE156A93AC383A64943A13DAA1B42 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
-		0AAE0921301F1BB2563351932F149E8B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MiniiSimpleAlert/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0AAE0921301F1BB2563351932F149E8B /* MiniiSimpleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniiSimpleAlert.swift; path = MiniiSimpleAlert/Classes/MiniiSimpleAlert.swift; sourceTree = "<group>"; };
 		0B18CC45CA460AA54B524885AC43FC46 /* BeResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeResult.swift; path = Sources/Nimble/Matchers/BeResult.swift; sourceTree = "<group>"; };
 		0B45B8866F896A1D4E16EA269D1491D9 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		0C727F39179CD2B17DD976E9844C63C9 /* Equal+Tuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Equal+Tuple.swift"; path = "Sources/Nimble/Matchers/Equal+Tuple.swift"; sourceTree = "<group>"; };
@@ -388,7 +388,7 @@
 		1A852511AEACECDF09758E4493842014 /* MiniiSimpleAlert */ = {
 			isa = PBXGroup;
 			children = (
-				0AAE0921301F1BB2563351932F149E8B /* ReplaceMe.swift */,
+				0AAE0921301F1BB2563351932F149E8B /* MiniiSimpleAlert.swift */,
 				9E02A48B5E197040E4A95F261387AA29 /* Pod */,
 				35E76707564A48E9E5D9CF07F7EC9BE4 /* Support Files */,
 			);
@@ -880,7 +880,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBA3B08BCCC7C2A72DF5C2633691E91 /* MiniiSimpleAlert-dummy.m in Sources */,
-				2DFBFAAE48EB927525BD0126171878CA /* ReplaceMe.swift in Sources */,
+				2DFBFAAE48EB927525BD0126171878CA /* MiniiSimpleAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

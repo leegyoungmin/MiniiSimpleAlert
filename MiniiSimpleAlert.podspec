@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of MiniiSimpleAlert.'
 
-  s.description      = <<-DESC
+  s.description      = 'Simple Alert view for CocoaPods'
 
   s.homepage         = 'https://github.com/leegyoungmin/MiniiSimpleAlert'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
